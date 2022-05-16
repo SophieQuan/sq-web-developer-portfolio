@@ -12,6 +12,9 @@ const Nav = () => {
       <NavLink to="/contact" activeclassname="active">
         <span>Contact</span>
       </NavLink>
+      <NavLink to="/resume" activeclassname="active">
+        <span>Resume</span>
+      </NavLink>
     </div>
   );
 };
