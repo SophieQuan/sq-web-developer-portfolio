@@ -1,38 +1,252 @@
-.App {
+:root {
+  --main: #56007e;
+  --yellow: #ffff00;
+  --grey: #dddada;
+  --offwhite: #fafafa;
+  --white: #fff;
+  --open-sans: "Open Sans", sans-serif;
+  --raleway: "Raleway", sans-serif;
+  --nautigal: "The Nautigal", cursive;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* HEADER */
+header {
+  background-color: var(--main);
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 5px; */
+  z-index: 8888;
+  width: 100%;
+  padding: 0;
+  margin: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#logo {
+  color: var(--yellow);
+  flex: 0 30%;
+  font-size: 70px;
+  font-family: var(--nautigal);
+  padding-left: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header a span {
+  color: var(--white);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.navlinks {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.navlinks a {
+  font-size: 20px;
+  align-items: center;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.active span {
+  border: #dddada;
+  color: #ffff00;
+}
+.intro {
+  z-index: 1;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  background: linear-gradient(
+    90deg,
+    #edecf1 31%,
+    rgba(124, 89, 166, 0.004639355742296902) 100%
+  );
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.intro h2 {
+  font-family: var(--nautigal);
+  font-size: 100px;
+  color: black;
+}
+
+.intro p {
+  font-family: var(--open-sans);
+  font-size: 30px;
+  color: #000;
+  /* padding: 2vh; */
+  line-height: 2.5;
+  border-left: 10px solid var(--main);
+  margin-top: 2vh;
+  background: linear-gradient(
+    90deg,
+    #f5dfff 31%,
+    rgba(124, 89, 166, 0.004639355742296902) 100%
+  );
+  padding: 20px;
+}
+.hero {
+  background-color: #edecf1;
+  z-index: 100;
+
+  background-image: url(../src/assets/images/book-store.jpg);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  top: 0;
+  left: 0;
+  background-position: right;
+  width: 100%;
+  z-index: -1;
+}
+
+.intro span {
+  color: var(--main);
+}
+
+/* arrow */
+.arrow {
+  border: solid var(--main);
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.arrowBtn {
+  border: none;
+  background: none;
+  padding-bottom: 20px;
+}
+.arrowBtn {
+  animation: MoveUpDown 1s linear infinite;
+}
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: translateY(-10px);
   }
+}
+
+/* CONTACT */
+.contact h1 {
+  font-size: 70px;
+  text-align: center;
+}
+.contact {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+label {
+  width: 100%;
+  color: #56007e;
+  font-size: 20px;
+  text-align: left;
+}
+
+input,
+textarea {
+  width: 40%;
+  border: none;
+  background-color: #efeafa;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #6c1992;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 20px;
+}
+
+/* PROJECTS */
+/* .projectDiv {
+  max-height: 25vh;
+} */
+/* .card-body {
+  box-shadow: 10px -4px 8px 0 rgba(68, 0, 68, 0.582);
+  background-color: #ecd5f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  justify-items: end;
+  height: 23vh;
+}
+.card-img-top {
+  max-width: 100%;
+  height: 50%;
+  object-fit: cover;
+  object-position: top right;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+button a {
+  color: #fff;
+} */
+.projectBox h3 {
+  font-size: 40px;
+}
+.projectBox p {
+  font-size: 18px;
+}
+.projectBox {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+
+  background-color: #efeafa;
+}
+.projectBox:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #efeafa;
+}
+
+.projectImg img {
+  overflow: hidden;
+  object-fit: cover;
+  object-position: top left;
+  height: 50vh;
+  padding: 0;
+}
+button a {
+  color: #fff;
+}
+button a:hover {
+  color: var(--yellow);
+}
+
+.row > * {
+  padding: 0;
 }
