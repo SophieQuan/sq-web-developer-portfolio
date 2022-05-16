@@ -43,8 +43,8 @@ const ProjectList = ({ window }) => {
   const currentprojects = projects.filter(project => project.window === window);
 
   return (
-    <div className="container projectDiv">
-      <div>
+    <div className="container">
+      <div className="projectDiv">
         {currentprojects.map((project, i) => (
           <div key={project.name} className="row col-12 projectBox m-3">
             <div className="col-lg-6 projectImg">
