@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 const Nav = () => {
   return (
-    <div className="col-lg-8 col-sm-12 d-flex justify-content-evenly navlinks">
+    <div className="col-lg-7 col-12 d-flex justify-content-evenly navlinks">
       <NavLink to="/" activeclassname="active">
         <span>About</span>
       </NavLink>

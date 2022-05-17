@@ -3,6 +3,8 @@ import projectImg1 from "../../assets/images/simply_scheduler.png";
 import projectImg2 from "../../assets/images/today_weather.png";
 import projectImg3 from "../../assets/images/note_taker.png";
 import projectImg4 from "../../assets/images/budget_tracker.png";
+import projectImg5 from "../../assets/images/no-fraud.png";
+import projectImg6 from "../../assets/images/glide.png";
 
 const ProjectList = ({ window }) => {
   const [projects] = useState([
@@ -37,6 +39,22 @@ const ProjectList = ({ window }) => {
       image: projectImg4,
       github: "https://github.com/SophieQuan/budget_tracker_app_pwa",
       deployedLink: "https://your-budgettracker-app.herokuapp.com/"
+    },
+    {
+      name: "No Fraud",
+      descriptions:
+        "A phone number validation gives you details about the type of number (landline or mobile), the carrier and GEO location.",
+      image: projectImg5,
+      github: "https://github.com/SophieQuan/no-fraud",
+      deployedLink: "https://kennwg.github.io/no-fraud/"
+    },
+    {
+      name: "Glide - Carpool app",
+      descriptions:
+        "A carpooling app that helps drivers and passengers select activities. Users can signup and login to create or request rides to carpool to their selected activity. Users are able to meet new people as well as reduce their traveling costs.",
+      image: projectImg6,
+      github: "https://github.com/SophieQuan/glide-carpool-app",
+      deployedLink: "https://glide-carpool-app.herokuapp.com/"
     }
   ]);
 
@@ -46,7 +64,7 @@ const ProjectList = ({ window }) => {
     <div className="container">
       <div className="projectDiv">
         {currentprojects.map((project, i) => (
-          <div key={project.name} className="row col-12 projectBox m-3">
+          <div key={project.name} className="row projectBox m-3">
             <div className="col-lg-6 projectImg">
               <img src={project.image} alt={project.name} />
             </div>
@@ -54,12 +72,12 @@ const ProjectList = ({ window }) => {
               <h3>{project.name}</h3>
               <p>{project.descriptions}</p>
               <div className="col-12 btn d-flex justify-content-evenly">
-                <button className="col-5">
-                  <a href={project.github}>Link to Repo</a>
-                </button>
-                <button className="col-5">
-                  <a href={project.deployedLink}>Deployed URL</a>
-                </button>
+                <a className="col-6 col-lg-5 m-1" href={project.github}>
+                  Link to Repo
+                </a>
+                <a className="col-6 col-lg-5 m-1" href={project.deployedLink}>
+                  Deployed URL
+                </a>
               </div>
             </div>
           </div>
