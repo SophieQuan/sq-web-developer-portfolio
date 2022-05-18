@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from "./components/About";
+import About from "./components/Home";
 import Header from "./components/Header";
 import ContactForm from "./components/Contact";
 import Projects from "./components/Projects";
@@ -18,7 +18,6 @@ function App() {
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/resume" element={<Resume />} />
       </Routes>
-      <About></About>
       <Footer></Footer>
     </Router>
   );

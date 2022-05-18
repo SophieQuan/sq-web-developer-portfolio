@@ -19,9 +19,6 @@ function About() {
             </Link>
           </button>
         </section>
-        {/* <section className="hero-img">
-          <div className="overlay"></div>
-        </section> */}
       </div>
 
       <section className="container mt-3">
