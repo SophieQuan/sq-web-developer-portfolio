@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 import profileImg from "../../assets/images/squan.jpg";
-function About() {
+function Home() {
   return (
     <main>
       <div className="hero ">
@@ -55,4 +55,4 @@ function About() {
   );
 }
 
-export default About;
+export default Home;

@@ -14,7 +14,7 @@ const ProjectList = ({ window }) => {
         "A simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.",
       image: projectImg1,
       github: "https://github.com/SophieQuan/simply-scheduler",
-      deployedLink: "https://github.com/SophieQuan/simply-scheduler"
+      deployedLink: "https://sophiequan.github.io/simply-scheduler/"
     },
     {
       name: "Today Weather",
