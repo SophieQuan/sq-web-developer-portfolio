@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Header></Header>
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/sq-web-developer-portfolio" element={<Home />} />
         <Route exact path="/contact" element={<ContactForm />} />
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/resume" element={<Resume />} />
