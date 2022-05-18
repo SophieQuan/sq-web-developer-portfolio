@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Nav = () => {
   return (
     <div className="col-lg-7 col-12 d-flex justify-content-evenly navlinks">
-      <NavLink to="/about" activeclassname="active">
+      <NavLink exact to="/" activeclassname="active">
         <span>About</span>
       </NavLink>
       <NavLink to="/projects" activeclassname="active">
