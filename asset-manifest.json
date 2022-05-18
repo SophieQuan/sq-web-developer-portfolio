@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sq-web-developer-portfolio/static/css/main.cc326a13.css",
-    "main.js": "/sq-web-developer-portfolio/static/js/main.b42480f0.js",
+    "main.js": "/sq-web-developer-portfolio/static/js/main.d3a6e23e.js",
     "static/js/787.2edf5fa0.chunk.js": "/sq-web-developer-portfolio/static/js/787.2edf5fa0.chunk.js",
     "static/media/glide.png": "/sq-web-developer-portfolio/static/media/glide.9c4bfdfae9780680bfad.png",
     "static/media/no-fraud.png": "/sq-web-developer-portfolio/static/media/no-fraud.ed17ba22423401de602c.png",
@@ -14,11 +14,11 @@
     "static/media/note_taker.png": "/sq-web-developer-portfolio/static/media/note_taker.37b96e6a50dbd9bd533e.png",
     "index.html": "/sq-web-developer-portfolio/index.html",
     "main.cc326a13.css.map": "/sq-web-developer-portfolio/static/css/main.cc326a13.css.map",
-    "main.b42480f0.js.map": "/sq-web-developer-portfolio/static/js/main.b42480f0.js.map",
+    "main.d3a6e23e.js.map": "/sq-web-developer-portfolio/static/js/main.d3a6e23e.js.map",
     "787.2edf5fa0.chunk.js.map": "/sq-web-developer-portfolio/static/js/787.2edf5fa0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc326a13.css",
-    "static/js/main.b42480f0.js"
+    "static/js/main.d3a6e23e.js"
   ]
 }
