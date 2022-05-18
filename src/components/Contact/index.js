@@ -12,14 +12,8 @@ function ContactForm() {
   const [errorMessage, setErrorMessage] = useState("");
   const { name, email, message } = formState;
 
-  const handleSubmit = e => {
-    e.preventDefault();
-    if (!errorMessage) {
-      console.log("Submit Form", formState);
-    }
-  };
-
   const handleChange = e => {
+    setFormState({ ...formState, [e.target.name]: e.target.value });
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
       if (!isValid) {
@@ -40,6 +34,17 @@ function ContactForm() {
     }
   };
 
+  const handleSubmit = e => {
+    e.preventDefault();
+    setFormState({ name: "", email: "", message: "" });
+    const displayText = document.querySelector(".hide");
+    displayText.style.display = "block";
+    displayText.innerText =
+      "Message sent. Thank you for your message! I will get in touch with you soon!";
+    if (!errorMessage) {
+      console.log("Submit Form", formState);
+    }
+  };
   return (
     <section className="container contact">
       <form id="contact-form" onSubmit={handleSubmit}>
@@ -49,8 +54,9 @@ function ContactForm() {
           <input
             type="text"
             name="name"
-            defaultValue={name}
             onBlur={handleChange}
+            onChange={handleChange}
+            value={formState.name}
             placeholder="name"
           />
         </div>
@@ -59,8 +65,9 @@ function ContactForm() {
           <input
             type="email"
             name="email"
-            defaultValue={email}
             onBlur={handleChange}
+            onChange={handleChange}
+            value={formState.email}
             placeholder="youremail@email.com"
           />
         </div>
@@ -69,8 +76,9 @@ function ContactForm() {
           <textarea
             name="message"
             rows="5"
-            defaultValue={message}
             onBlur={handleChange}
+            onChange={handleChange}
+            value={formState.message}
             placeholder="leave a message"
           />
         </div>
@@ -79,6 +87,7 @@ function ContactForm() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
+        <p className="hide"></p>
         <button data-testid="button" type="submit">
           SEND
         </button>

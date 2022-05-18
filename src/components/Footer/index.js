@@ -6,17 +6,16 @@ import { FaLinkedin } from "react-icons/fa";
 function Footer() {
   return (
     <footer>
-      <p>⭐️Connect with me via </p>
-      <a href="https://stackoverflow.com/users/17649427">
+      <p>⭐️⭐️⭐️ Connect with me via </p>
+      <a href="https://github.com/SophieQuan">
         <FaGithub />
       </a>
-      <a href="https://stackoverflow.com/users/17649427">
+      <a href="www.linkedin.com/in/sophiequan7">
         <FaLinkedin />
       </a>
       <a href="https://stackoverflow.com/users/17649427">
-        <BsStackOverflow />
+        <BsStackOverflow /> ⭐️⭐️⭐️
       </a>
-      ⭐️
     </footer>
   );
 }
