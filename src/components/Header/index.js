@@ -7,10 +7,7 @@ function Header() {
   return (
     <header>
       <h2 className="col-lg-4 col-12">
-        <a
-          href="http://sophiequan.github.io/sq-web-developer-portfolio/about"
-          id="logo"
-        >
+        <a href="/" id="logo">
           Sophie<span>Quan</span>
         </a>
       </h2>
