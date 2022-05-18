@@ -1,5 +1,4 @@
 {
-  "homepage": "http://sophiequan.github.io/sq-web-developer-portfolio",
   "name": "sq-web-developer-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -33,6 +32,7 @@
     "workbox-strategies": "^6.5.3",
     "workbox-streams": "^6.5.3"
   },
+  "homepage": "http://sophiequan.github.io/sq-web-developer-portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
