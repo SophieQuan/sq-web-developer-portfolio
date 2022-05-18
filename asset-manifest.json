@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f23d009.css",
-    "main.js": "/static/js/main.3c2c8145.js",
-    "static/js/787.2edf5fa0.chunk.js": "/static/js/787.2edf5fa0.chunk.js",
-    "static/media/glide.png": "/static/media/glide.9c4bfdfae9780680bfad.png",
-    "static/media/no-fraud.png": "/static/media/no-fraud.ed17ba22423401de602c.png",
-    "static/media/book-store.jpg": "/static/media/book-store.89eed8d72e1fe74fd1de.jpg",
-    "static/media/squan.jpg": "/static/media/squan.dbe61d2e42a13f0b78fc.jpg",
-    "static/media/today_weather.png": "/static/media/today_weather.5f58f430c246f63623f1.png",
-    "static/media/budget_tracker.png": "/static/media/budget_tracker.817122576efeb7bf8aa3.png",
-    "static/media/simply_scheduler.png": "/static/media/simply_scheduler.c3e13c0ee6b1a7b18b7d.png",
-    "service-worker.js": "/service-worker.js",
-    "static/media/note_taker.png": "/static/media/note_taker.37b96e6a50dbd9bd533e.png",
-    "index.html": "/index.html",
-    "main.3f23d009.css.map": "/static/css/main.3f23d009.css.map",
-    "main.3c2c8145.js.map": "/static/js/main.3c2c8145.js.map",
-    "787.2edf5fa0.chunk.js.map": "/static/js/787.2edf5fa0.chunk.js.map"
+    "main.css": "/sq-web-developer-portfolio/static/css/main.cc326a13.css",
+    "main.js": "/sq-web-developer-portfolio/static/js/main.8d0deb8d.js",
+    "static/js/787.2edf5fa0.chunk.js": "/sq-web-developer-portfolio/static/js/787.2edf5fa0.chunk.js",
+    "static/media/glide.png": "/sq-web-developer-portfolio/static/media/glide.9c4bfdfae9780680bfad.png",
+    "static/media/no-fraud.png": "/sq-web-developer-portfolio/static/media/no-fraud.ed17ba22423401de602c.png",
+    "static/media/book-store.jpg": "/sq-web-developer-portfolio/static/media/book-store.89eed8d72e1fe74fd1de.jpg",
+    "static/media/squan.jpg": "/sq-web-developer-portfolio/static/media/squan.dbe61d2e42a13f0b78fc.jpg",
+    "static/media/today_weather.png": "/sq-web-developer-portfolio/static/media/today_weather.5f58f430c246f63623f1.png",
+    "static/media/budget_tracker.png": "/sq-web-developer-portfolio/static/media/budget_tracker.817122576efeb7bf8aa3.png",
+    "static/media/simply_scheduler.png": "/sq-web-developer-portfolio/static/media/simply_scheduler.c3e13c0ee6b1a7b18b7d.png",
+    "service-worker.js": "/sq-web-developer-portfolio/service-worker.js",
+    "static/media/note_taker.png": "/sq-web-developer-portfolio/static/media/note_taker.37b96e6a50dbd9bd533e.png",
+    "index.html": "/sq-web-developer-portfolio/index.html",
+    "main.cc326a13.css.map": "/sq-web-developer-portfolio/static/css/main.cc326a13.css.map",
+    "main.8d0deb8d.js.map": "/sq-web-developer-portfolio/static/js/main.8d0deb8d.js.map",
+    "787.2edf5fa0.chunk.js.map": "/sq-web-developer-portfolio/static/js/787.2edf5fa0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f23d009.css",
-    "static/js/main.3c2c8145.js"
+    "static/css/main.cc326a13.css",
+    "static/js/main.8d0deb8d.js"
   ]
 }
