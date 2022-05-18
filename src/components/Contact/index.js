@@ -54,6 +54,7 @@ function ContactForm() {
           <input
             type="text"
             name="name"
+            defaultValue={name}
             onBlur={handleChange}
             onChange={handleChange}
             value={formState.name}
@@ -65,6 +66,7 @@ function ContactForm() {
           <input
             type="email"
             name="email"
+            defaultValue={email}
             onBlur={handleChange}
             onChange={handleChange}
             value={formState.email}
@@ -76,6 +78,7 @@ function ContactForm() {
           <textarea
             name="message"
             rows="5"
+            defaultValue={message}
             onBlur={handleChange}
             onChange={handleChange}
             value={formState.message}

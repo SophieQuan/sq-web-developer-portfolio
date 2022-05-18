@@ -26,7 +26,11 @@ function About() {
 
       <section className="container mt-3">
         <div className="row profileContainer">
-          <img className="profilePic col-4" src={profileImg}></img>
+          <img
+            className="profilePic col-4"
+            src={profileImg}
+            alt="sophie profile pic"
+          ></img>
           <div className="col-8 profile">
             <h2>SOPHIE QUAN</h2>
             <h3>
