@@ -11,7 +11,7 @@ function Home() {
             Hello ! I'm <span>Sophie</span> Quan
           </h2>
           <p>
-            I'm a Web Designer and Developer. Checkout my latest web compoments.
+            I'm a Web Designer and Developer. Checkout my latest web projects.
           </p>
           <button className="arrowBtn">
             <Link to="/projects">
