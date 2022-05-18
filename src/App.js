@@ -14,10 +14,11 @@ function App() {
       <Header></Header>
       <Routes>
         <Route exact path="/" element={<About />} />
-        <Route path="/contact" element={<ContactForm />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/resume" element={<Resume />} />
+        <Route exact path="/contact" element={<ContactForm />} />
+        <Route exact path="/projects" element={<Projects />} />
+        <Route exact path="/resume" element={<Resume />} />
       </Routes>
+      <About></About>
       <Footer></Footer>
     </Router>
   );
